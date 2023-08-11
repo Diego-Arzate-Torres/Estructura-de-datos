@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a10c84b0-7e41-491d-9a7d-ddc30a0d8a8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estructura de Datos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modulo 1/evidencia1/Main.Java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modulo 1/evidencia1/process/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modulo 1/evidencia1/ui/module-info.java" afterDir="false" />
+    <list default="true" id="a10c84b0-7e41-491d-9a7d-ddc30a0d8a8e" name="Changes" comment="Hope this poop it's right">
+      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea2/process/process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea2/ui/CLI.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea3/process/process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea3/ui/CLI.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea4/process/process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea4/ui/CLI.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo 1/evidencia1/process/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modulo 1/evidencia1/process/process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modulo 1/evidencia1/ui/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modulo 1/evidencia1/ui/CLI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Totq1QC7ip8J5AWvLeWF4tyeGL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,10 +41,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-20"
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "C:/Users/Diego/IdeaProjects/Estructura de Datos/src/Modulo 1/tarea4/ui",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\tarea4\ui" />
+      <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\tarea4\process" />
+      <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\evidencia1\process" />
+      <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\tarea3\ui" />
+      <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\tarea3\process" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\evidencia1\ui" />
       <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\evidencia1\process" />
@@ -60,6 +77,18 @@
       <option name="presentableId" value="Default" />
       <updated>1691721449920</updated>
     </task>
+    <task id="LOCAL-00001" summary="Hope this poop it's right">
+      <created>1691722425959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691722425959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hope this poop it's right" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hope this poop it's right" />
   </component>
 </project>
