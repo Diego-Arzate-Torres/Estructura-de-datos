@@ -1,0 +1,23 @@
+Pila
+Sale el ultimo
+Cola
+Sale el primero
+(cola de prioridad)
+Sale el mas importante
+Lista
+Lo que caiga p
+
+Node 
+NOde link;
+
+class Node <T>{<T>
+T dato;
+Node link;
+
+lista { node raiz (node root){
+
+Heap
+
+preguntar como coño se hace una simulacion antes de octubre
+
+
