@@ -20,4 +20,18 @@ Heap
 
 preguntar como coño se hace una simulacion antes de octubre
 
+                      Enlazada
+Public interface Lista <T> {
+void add(Tt);
+int remove(Tt);
+T get();
+Void update(Tt,Tt);
+Optional <Node<T>>root;
+}
+
+public class Node<T>{
+T data;
+Optional<T>>next;
+}
+
 
