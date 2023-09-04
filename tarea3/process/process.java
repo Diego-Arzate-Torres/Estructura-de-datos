@@ -3,9 +3,27 @@ package edu.diego.arzate.torres.Modulo1.tarea3.process;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * La clase process contiene métodos para convertir una expresión matemática en notación infija a notación postfija y evaluar una expresión en notación postfija.
+ */
 public class process {
 
+    /**
+     * Convierte una expresión matemática en notación infija a notación postfija.
+     *
+     * @param expression La expresión en notación infija a convertir.
+     * @return La expresión convertida en notación postfija.
+     */
     public static String process(String expression) {
+
+
+    /**
+     * Evalúa una expresión matemática en notación postfija.
+     *
+     * @param postfix La expresión en notación postfija a evaluar.
+     * @return El resultado de la evaluación de la expresión.
+     */
+
         int precedence[] = new int[128];
         precedence['+'] = 1;
         precedence['-'] = 1;

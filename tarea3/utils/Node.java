@@ -2,7 +2,7 @@ package edu.diego.arzate.torres.Modulo1.tarea3.utils;
 
 import java.util.Optional;
 
-public class Node<E>{
+public class Node<E> {
     public E data;
     public Optional<Node<E>> next;
 
@@ -11,4 +11,6 @@ public class Node<E>{
         next = Optional.empty();
 
     }
+
+
 }

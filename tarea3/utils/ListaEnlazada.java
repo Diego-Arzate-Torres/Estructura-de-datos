@@ -10,6 +10,7 @@ import java.util.Optional;
  * @param <E> El tipo de elementos almacenados en la lista.
  */
 public class ListaEnlazada<E> implements Lista<E> {
+
     Optional<Node<E>> firstNode;
 
     /**
@@ -163,20 +164,8 @@ public class ListaEnlazada<E> implements Lista<E> {
         }
         return false;
     }
-    public E removeFirst() {
-        // Verifica si la lista está vacía.
-        if (this.isEmpty()) {
-            // Si la lista está vacía, devuelve null.
-            return null;
-        } else {
-            // Si la lista no está vacía, obtiene el primer elemento.
-            E element = (E) this.getFirst();
-            // Elimina el primer elemento de la lista.
-            this.remove(element);
-            // Devuelve el elemento eliminado.
-            return element;
-        }
-    }
+
+
     public Optional<E> peek() {
         if (firstNode.isPresent()) {
             return Optional.of(firstNode.get().data);
@@ -185,14 +174,19 @@ public class ListaEnlazada<E> implements Lista<E> {
         }
     }
     public boolean isEmpty() {
+
         return firstNode.isEmpty();
     }
-    public Optional<E> getFirst() {
-        if (firstNode.isPresent()) {
-            return Optional.of(firstNode.get().data);
-        } else {
-            return Optional.empty();
-        }
+
+    public void addFirst(E e){
+        Optional <Node<E>> newNode = Optional.of(new Node<>(e));
+        newNode.get().next = firstNode;
+        firstNode = newNode;
     }
+
+    public void removeFirst() {
+        firstNode = firstNode.get().next;
+    }
+
 }
 

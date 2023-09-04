@@ -19,6 +19,7 @@ public class StackTest {
         Assert.assertEquals(3,stack.size());
     }
 
+
     @Test
     public void popTest(){
         Stack<Integer> stack = new Stack<>();
@@ -26,11 +27,11 @@ public class StackTest {
         stack.push(78);
         stack.push(105);
         stack.pop();
-
         Assert.assertTrue(stack.peek().get() == 78);
         Assert.assertFalse(stack.peek().get()==105);
         Assert.assertEquals(2,stack.size());
     }
+
 
     @Test
     public void pop_empty_Test(){
