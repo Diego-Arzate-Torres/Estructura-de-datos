@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a10c84b0-7e41-491d-9a7d-ddc30a0d8a8e" name="Changes" comment="Hope this poop it's right">
-      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea2/process/process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea2/ui/CLI.Java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea3/process/process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea3/ui/CLI.Java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea4/process/process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modulo 1/tarea4/ui/CLI.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reto9/utils/SearchGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modulo 1/evidencia1/process/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modulo 1/evidencia1/process/process.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modulo 1/evidencia1/ui/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modulo 1/evidencia1/ui/CLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estructura de Datos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Estructura de Datos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reto9/utils/arista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reto9/utils/arista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reto9/utils/collections/grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reto9/utils/collections/grafo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reto9/utils/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reto9/utils/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reto9/utils/vertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reto9/utils/vertice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,22 +39,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_opened_file_path": "C:/Users/Diego/IdeaProjects/Estructura de Datos/src/Modulo 1/tarea4/ui",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Diego/IdeaProjects/Estructura de Datos/src/Modulo 1/tarea4/ui&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\tarea4\ui" />
@@ -61,12 +68,51 @@
       <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\tarea3\process" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\HP\Documents\GitHub\Estructura-de-datos\src" />
       <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\evidencia1\ui" />
       <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\evidencia1\process" />
       <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\evidencia1\main" />
       <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\Evidencia 1" />
-      <recent name="C:\Users\Diego\IdeaProjects\Estructura de Datos\src\Modulo 1\Evidencia 1\Main" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.test.testDeepFirstSuccess">
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Estructura de Datos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reto9.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="reto9.utils" />
+      <option name="MAIN_CLASS_NAME" value="reto9.utils.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.testDeepFirstSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Estructura de Datos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reto9.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="reto9.utils" />
+      <option name="MAIN_CLASS_NAME" value="reto9.utils.test" />
+      <option name="METHOD_NAME" value="testDeepFirstSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.testDeepFirstSuccess" />
+        <item itemvalue="JUnit.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
