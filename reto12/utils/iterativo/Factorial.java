@@ -22,7 +22,7 @@ public class Factorial {
      * @param args Argumentos de la línea de comandos. No se utilizan en este método.
      */
     public static void main(String args[]) {
-        int n = 0; // Número para calcular el factorial
+        int n = 10; // Número para calcular el factorial
         int resultado = factorial(n);
         System.out.println("El factorial de " + n + " es: " + resultado);
     }

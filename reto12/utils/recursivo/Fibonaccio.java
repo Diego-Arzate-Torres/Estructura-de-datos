@@ -10,24 +10,28 @@ public class Fibonaccio {
      * @return El n-ésimo número de la serie de Fibonacci.
      */
     public static int fibonacci(int n) {
-        if (n == 0)
-            return 0;
-        else if (n == 1)
+        if (n == 0 || n == 1) {
             return 1;
+        }
         else
             return fibonacci(n - 1) + fibonacci(n - 2);
     }
+
+    /**
+     * Imprime los primeros n números de la serie de Fibonacci de manera recursiva.
+     *
+     * @param n El número total de términos a imprimir.
+     * @param i El índice del término actual a imprimir.
+     */
+
     /**
      * Método principal para probar el método fibonacci.
      *
      * @param args Argumentos de la línea de comandos. No se utilizan en este método.
      */
     public static void main(String args[]) {
-        int n = 0; // Número de términos a imprimir
-        System.out.println("Los primeros " + (n) + " términos de la serie de Fibonacci son: ");
 
-        for (int i = 1; i < n; i++) {
-            System.out.print(fibonacci(i) + " ");
-        }
+        System.out.println(" el Fibonacci de 10 es: " + fibonacci(10));
+
     }
 }

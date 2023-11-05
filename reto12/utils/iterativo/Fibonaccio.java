@@ -13,7 +13,7 @@ public class Fibonaccio {
         System.out.println("Los primeros " + n + " términos de la serie de Fibonacci son: ");
         System.out.print(a + " " + b + " "); // Imprime los dos primeros números
 
-        for (int i = 3; i <= n; ++i) { // Comienza desde el tercer número
+        for (int i = 3; i <= n+1; ++i) { // Comienza desde el tercer número
             siguiente = a + b;
             System.out.print(siguiente + " ");
             a = b;
@@ -27,7 +27,7 @@ public class Fibonaccio {
      */
     public static void main(String args[]) {
         Fibonaccio fi = new Fibonaccio();
-        int n = 0; // Número de términos a imprimir
+        int n = 10; // Número de términos a imprimir
         fi.fibonacci(n);
     }
 }
