@@ -1,30 +1,19 @@
 package modulo3.reto15.uitls.searchers;
 
 /**
- * Clase Node que representa un nodo en un árbol binario de búsqueda.
+ * Clase Node que representa un nodo en un árbol 2-3.
  */
 public class Node {
-    /**
-     * El valor almacenado en este nodo.
-     */
-    int dato;
+
+    int[] keys = new int[3]; //Un arreglo de enteros para almacenar las claves en el nodo.
+    Node[] children = new Node[4]; //Un arreglo de nodos para almacenar los hijos del nodo.
+    int keyCount; //Un entero para llevar la cuenta de cuántas claves hay en el nodo.
 
     /**
-     * El hijo izquierdo de este nodo.
+     * Método para determinar si el nodo es una hoja.
+     * @return Verdadero si el nodo es una hoja, falso en caso contrario.
      */
-    Node izq;
-
-    /**
-     * El hijo derecho de este nodo.
-     */
-    Node der;
-
-    /**
-     * Constructor que crea un nuevo nodo con un valor dado.
-     * @param dato El valor para este nodo.
-     */
-    public Node(int dato) {
-        this.dato = dato;
-        izq = der = null;
+    boolean isLeaf() {
+        return children[0] == null;
     }
 }

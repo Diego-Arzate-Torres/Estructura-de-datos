@@ -1,6 +1,6 @@
 package modulo3.reto15;
 
-import modulo3.reto15.uitls.searchers.Arbol32;
+import modulo3.reto15.uitls.searchers.Arbol23;
 
 /**
  * Clase main que contiene el método principal para ejecutar el programa.
@@ -12,14 +12,16 @@ public class main {
      * @param args Los argumentos de la línea de comandos.
      */
     public static void main(String[] args) {
-        Arbol32 arbol = new Arbol32();
+        Arbol23 arbol = new Arbol23();
 
-        arbol.agregar(10);
-        arbol.agregar(20);
-        arbol.agregar(5);
-        arbol.agregar(15);
+        // Insertamos algunos elementos en el árbol
+        arbol.insert(5);
+        arbol.insert(3);
+        arbol.insert(15);
+        arbol.insert(20);
 
-        System.out.println("¿El número 10 está en el árbol? " + (arbol.buscar(10) ? "Sí" : "No"));
-        System.out.println("¿El número 25 está en el árbol? " + (arbol.buscar(25) ? "Sí" : "No"));
+        // Buscamos algunos elementos en el árbol
+        System.out.println("¿El número 20 está en el árbol? " + (arbol.search(3) ? "Sí" : "No"));
+        System.out.println("¿El número 5 está en el árbol? " + (arbol.search(5) ? "Sí" : "No"));
     }
 }
